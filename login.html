@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="w-screen h-screen flex justify-center items-center  " style="background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    ">
+        <div class="lg:w-[40vw] w-[90vw] md:p-10 p-3 shadow-md rounded-sm shadow-slate-400 bg-slate-700 text-white flex items-center flex-col gap-10">
+          <h1 class="font-bold text-4xl ">Login</h1>
+          <div class="flex flex-col gap-2 w-full px-10">
+            <div class="flex flex-col w-full ">
+                <label class="text-lg font-semibold" for="name">UserName</label>
+                <input class=" border-2 p-2 rounded-lg pt-2 bg-[rgba(255,255,255,0.3)]" type="text" placeholder="Enter your username " id="name">
+               </div> 
+               <div class="flex flex-col w-full pt-3 ">
+                <label class="text-lg font-semibold" for="name">Password</label>
+                <input class=" border-2 p-2 rounded-lg pt-2 bg-[rgba(255,255,255,0.3)]" type="text" placeholder="Enter your Password " id="name">
+               </div>
+           <p class="text-end text-sm">Forgot password?</p>
+          </div>
+          <button class="rounded-full bg-slate-500 text-white font-bold p-2 w-80" onclick="window.location.href='index.html'">LOGIN</button>
+          <div class="flex flex-col items-center">
+          <p>Or SignUp Using</p>
+           
+           <div class="flex  gap-3">
+               <a  href=""><i  class="fa-brands fa-facebook text-2xl pt-2"></i></a>
+           <a href=""><i class="fa-brands fa-square-twitter text-2xl pt-2"></i></a>
+           <a href=""><i class="fa-brands fa-google text-2xl pt-2"></i></a>
+           </div>
+          </div>
+          <button 
+          class="rounded-full bg-slate-500 text-white font-bold p-2 w-80" onclick="window.location.href='signup.html'" >SignUp</button>
+        </div>
+      </div>
+</body>
+</html>
